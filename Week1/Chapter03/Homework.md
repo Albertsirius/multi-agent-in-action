@@ -33,3 +33,21 @@ Referring to the format of .opencode/agents/collector.md, please creat two more 
     - File name format: {data}-{source}-{slug}.json
 
 ```
+
+
+## 任务二
+### `@mention`和`Task`的区别
+通过AI问答：
+
+`@mention` 用于在当前对话中快速调用特定的文件或子代理。
+
+`Task` 则是指的是主代理（Primary Agent）为了完成复杂的模块化工作，委派给专门的子代理（Sub-agent）去独立执行的具体目。
+
+若你想的是ask，使用`@mention`；若想assign，则使用`@assgin`
+
+### 执行结果
+
+![截图](screen_dump.png)
+
+
+
